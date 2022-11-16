@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pacman</title>
+    <style>
+        #gameCanvas {
+            box-shadow: 10px 10px 20px black;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: comic sans MS, serif;
+            color: lightgray;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+            background: linear-gradient(
+                    0deg,
+                    rgb(17, 51, 161) 0%,
+                    rgb(136, 34, 195) 100%
+            );
+        }
+    </style>
+</head>
+<body>
+<dvi>
+    <h1>Pac-Man</h1>
+    <canvas id="gameCanvas"></canvas>
+</dvi>
+<script src="./src/Game.js" type="module"></script>
+</body>
+</html>
